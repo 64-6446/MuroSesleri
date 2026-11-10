@@ -1,0 +1,14 @@
+Muro Sesleri - üçüncü taraf bileşen bildirimi
+
+Supertonic 3 (Supertone Inc., Seul)
+https://huggingface.co/Supertone/supertonic-3
+Lisans: BigScience Open RAIL-M License, dated August 18, 2022 (bkz. LICENSE)
+
+Dağıtılan dosyalar:
+- duration_predictor.onnx, vocoder.onnx, tts.json, unicode_indexer.json, F1-F5.json, M1-M5.json: özgün Supertonic 3 dosyaları.
+- text_encoder.int8.onnx, vector_estimator.int8.onnx: Supertonic 3'ün text_encoder.onnx ve vector_estimator.onnx
+  dosyalarından dinamik int8 nicemleme ile türetilmiştir (Muro TTS / MuroBooks, Murat Doğan Işık). Bu dosyalar
+  değiştirilmiş dosyalardır; ağırlıklar özgün modelden nicemleme dışında değiştirilmemiştir.
+- liste.json: dosya boyutları ve SHA-256 özetleri (MuroBooks indiricisi için).
+
+Kullanım kısıtlamaları (LICENSE, Ek A) bu dosyaların her kullanımı ve dağıtımı için geçerlidir.
